@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './HomeCard/Card'
 import './Cards.css'
 import Listing1 from '../../images/Listing1.jpg'
-import Listing2 from '../../images/Listing2.jpg'
+import Listing from '../../images/Listing.jpg'
 import Listing3 from '../../images/Listing3.jpg'
 
 function Cards() {
@@ -18,7 +18,7 @@ function Cards() {
             label='4Bd/3Br 2100s/ft'
           /> 
           <Card
-            src={Listing2}
+            src={Listing}
             text='$1.2mil - Scottsdale, AZ'
             label='4Bd/5Br 3750s/ft'
           /> 
