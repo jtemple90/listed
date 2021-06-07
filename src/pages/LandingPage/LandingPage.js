@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import FeaturedHomes from '../../components/FeaturedHomes/Cards'
+import Footer from '../../components/Footer/Footer'
 import './Landing.css'
 
 const LandingPage = () => {
@@ -12,15 +13,16 @@ const LandingPage = () => {
       <p>LET US HELP YOU FIND YOUR NEXT HOME.</p>
       <div className="hero-btns">
         <Link to='/listings'>
-          <button className='login'>AVAILABLE HOMES</button>
+          <button className='landing-btn'>AVAILABLE HOMES</button>
         </Link>
       </div>
     </div>
     <div className="featured">
       <FeaturedHomes/>
     </div>
-     
+     <Footer/>
     </div>
+    
     </>
   )
 }

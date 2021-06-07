@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 15em;
+    padding-top: 10em;
 }
 
 .inner-txt>h1 {
@@ -32,10 +32,10 @@
     color: #fff;
     font-size: 32px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.519);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-.login {
+.landing-btn {
     padding: 15px 30px;
     font-size: 1.2rem;
     font-weight: bolder;
@@ -49,12 +49,8 @@
     outline: none;
 }
 
-.login:hover {
+.landing-btn:hover {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.423);
-}
-
-login:hover {
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.683);
 }
 
 @media screen and (max-width: 960px) {
@@ -68,6 +64,7 @@ login:hover {
         font-size: 2.4rem;
     }
     .inner-txt>p {
-        font-size: 28px;
+        font-size: 24px;
+        text-align: center;
     }
 }
