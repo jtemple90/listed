@@ -15,7 +15,7 @@ const Login = () => {
               name='email'
               placeholder='Your Email'
               className='login-input'
-              value='testuser'
+              value='johnDoe'
             />
         <input 
               type="password"

@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 import {Switch, Route } from 'react-router-dom'
 import LandingPage from './pages/LandingPage/LandingPage.js';
 import Listings from './pages/Listings/Listings';

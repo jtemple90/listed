@@ -1,0 +1,10 @@
+.listings-page-container>h1 {
+    margin: 10px;
+}
+
+.listing-page-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
